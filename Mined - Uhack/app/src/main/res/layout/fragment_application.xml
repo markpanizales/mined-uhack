@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/email_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/industry"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/industry_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/officeindustry"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/officeindustry_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/officetelephone"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/officetelephone_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/city_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/salutation"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/salutation_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/gender_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/birthdate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/birthdate_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/homeownership"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/homeownership_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/homeownershipyears"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/homeownershipyears_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/homeownershipsalary"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/homeownershipsalary_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/mothersmaidenname"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/mothersmaidenname_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textEmailAddress"
+                />
+            <Spinner
+                android:id="@+id/lastname_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/firstname_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/civilstatus"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/civilstatus_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/yearsincompany"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/yearsincompany_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/occupation"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/occupation_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/officecity"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/officecity_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/tin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/tin_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/sss"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/sss_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/authorizedrelation"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/authorizedrelation_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/authorizednumber"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/authorizednumber_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/carownership"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/carownership_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/citizenship"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/citizenship_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/homeaddress"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/homeaddress_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/authorizedcontactperson"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/authorizedcontactperson_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            >
+
+            <EditText
+                android:id="@+id/employer"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:inputType="textMultiLine"
+                />
+            <Spinner
+                android:id="@+id/employer_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
